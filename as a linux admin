@@ -1,0 +1,14 @@
+my primary responsibility is to ensure the smooth functioning and security of Linux-based systems. 
+I handle everything from installing and configuring the operating system to managing servers, applications, and network services.
+One of my key tasks is regular system maintenance, including patch management and updates,
+to keep the systems secure and optimized. I also monitor system performance using tools like Checkmk and AppDynamics and resolve any bottlenecks or
+issues that might arise.
+User management is another critical area. I create and manage user accounts, enforce permissions, and ensure adherence to security policies.
+Security is a top priority—I conduct regular audits, implement system hardening practices, and deploy measures like SELinux and firewalls to safeguard against 
+vulnerabilities.
+In terms of automation, I have extensive experience with tools like Ansible and Puppet, which I use to automate repetitive tasks and maintain consistent 
+system configurations. Additionally, I write custom scripts, often using Bash or Python, to streamline processes and improve efficiency.
+Backup and recovery are also crucial parts of my role. I ensure reliable backup systems are in place and verify that recovery processes work seamlessly in case of
+failures. Furthermore, I document configurations, procedures, and troubleshooting steps meticulously so that the team always has clear guidelines.
+Lastly, I stay updated with the latest trends and tools in Linux systems to ensure that my knowledge is current and relevant.
+I believe that being proactive in learning and problem-solving is essential to excelling in this role
