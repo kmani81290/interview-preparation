@@ -14,3 +14,46 @@ cp -a /var/lib/rpm/* /backup/rpm/
 rm -f /var/lib/rpm/__db*
 rpm --rebuilddb
 rpm -qa
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+>>> satellite server
+"I've used Red Hat Satellite Server for tasks like managing Linux systems, automating updates, organizing software packages, and troubleshooting issues. 
+It helps with provisioning, patching, and keeping systems secure. I make sure everything runs smoothly and fits the organization's needs."
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+did you use ansible, did you written any playbooks, why you used ansible?
+"Yes, I've used Ansible for automation and configuration management. I use it because it's efficient, lightweight, 
+and doesn't require agents on the managed systems, which makes setup much easier. It's also idempotent, 
+meaning tasks won't be repeated unnecessarily, ensuring systems remain consistent.
+
+Regarding playbooks, I have written several to automate tasks like deploying applications, managing configurations, 
+and handling system updates. For example, I created a playbook to install and configure a web server, which involved tasks like installing packages,
+managing firewall rules, and ensuring the service starts automatically."
+
+---
+- name: Create a directory
+  hosts: localhost
+  tasks:
+    - name: Create a folder called "my_directory"
+      file:
+        path: /tmp/my_directory
+        state: directory
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
